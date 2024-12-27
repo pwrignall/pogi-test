@@ -12,3 +12,8 @@ content:
     type: file
     path: _data/metadata.js
     format: code
+  - name: css
+    label: CSS
+    type: file
+    path: public/css/index.css
+    format: code
