@@ -27,14 +27,8 @@
 		{#- <link rel="stylesheet" href="{% getBundleFileUrl "css" %}"> #}
 	</head>
 	<body>
-		<a href="#skip" class="visually-hidden">Skip to main content</a>
-
-		<main id="skip">
+		<main>
 			{{ content | safe }}
 		</main>
-
-		<footer></footer>
-
-		<!-- Current page: {{ page.url | htmlBaseUrl }} -->
 	</body>
 </html>
