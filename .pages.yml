@@ -1,4 +1,4 @@
-media: public/img
+# media: public/img
 content:
   - name: index
     label: Home page
