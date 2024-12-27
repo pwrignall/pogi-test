@@ -1,5 +1,4 @@
 ---
-layout: layouts/home.njk
+layout: layouts/base.njk
 ---
-
-# Not yet…
+# I edited this using Pages CMS
