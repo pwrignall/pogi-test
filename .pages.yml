@@ -1,17 +1,11 @@
 media: public/img
 content:
-  - name: about
-    label: About page
+  - name: index
+    label: Home page
     type: file
-    path: content/about/index.md
+    path: content/index.njk
     fields:
       - { name: layout, type: string, hidden: true, default: layouts/base.njk }
-      - name: eleventyNavigation
-        label: Navigation
-        type: object
-        fields:
-          - { name: key, label: Key, type: string }
-          - { name: order, label: Order, type: number }
       - { name: body, label: Body, type: rich-text }
   - name: metadata
     label: Metadata
