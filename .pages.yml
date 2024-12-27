@@ -3,7 +3,7 @@ content:
   - name: index
     label: Home page
     type: file
-    path: content/index.njk
+    path: content/index.md
     fields:
       - { name: layout, type: string, hidden: true, default: layouts/base.njk }
       - { name: body, label: Body, type: rich-text }
